@@ -1,5 +1,5 @@
 import React from "react";
-import { Links } from "../utils/links";
+import { Links } from "../utils/Links";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { dashBoardValues } from "../pages/DashBoard";
