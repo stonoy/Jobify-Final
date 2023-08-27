@@ -9,7 +9,7 @@ import Navbar from "./Navbar";
 import Navlinks from "./Navlinks";
 import SearchContainer from "./SearchContainer";
 import SmallSideBar from "./SmallSideBar";
-import StatItem from "./statItem";
+import StatItem from "./StatItem";
 
 export {
   SmallSideBar,
