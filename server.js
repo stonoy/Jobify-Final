@@ -32,10 +32,6 @@ if (process.env.NODE_ENV === "development") {
   app.use(morgan("dev"));
 }
 
-app.get("/", (req, res) => {
-  res.send("welcome!");
-});
-
 // Api Routes
 app.use("/api/v1/jobs", auth, JobsRoutes);
 app.use("/api/v1/user", UserRoutes);
